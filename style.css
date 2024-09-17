@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: white;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+h1 {
+    font-size: 2rem;
+    color: rgb(0, 102, 255);
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.input-group {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.input-form-control {
+    border-radius: 50px;
+    padding: 15px;
+}
+
+#searchBtn {
+    background: #007bff;
+    border: none;
+    padding: 15px 20px;
+    font-weight: 500;
+    transition: background 0.3s ease;
+}
+
+#searchBtn:hover {
+    background: #0056B3;
+}
+
+.loading {
+    display: none;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.underline {
+    text-decoration: line-through;
+}
+
+.todo-list .card {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    border-radius: 8px;
+}
+
+.todo-list .card p {
+    margin: 0;
+}
+
+.todo-list .card p + p {
+    margin-top: 8px;
+}
+
+
+
+
+#errormsg {
+    margin-top: 20px;
+    display: none;
+}
